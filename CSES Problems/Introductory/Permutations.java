@@ -1,6 +1,6 @@
+package Introductory;
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
-import java.util.StringTokenizer;
 import java.io.IOException;
 
 public class Permutations

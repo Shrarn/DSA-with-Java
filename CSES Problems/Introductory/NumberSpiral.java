@@ -1,6 +1,6 @@
+package Introductory;
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
-import java.util.StringTokenizer;
 import java.io.IOException;
 
 public class NumberSpiral 
@@ -9,12 +9,9 @@ public class NumberSpiral
     {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         int t = Integer.parseInt(br.readLine());
-        String input;
         long x,y;
         while(t>0)
         {
-            //input = br.readLine();
-            //StringTokenizer st = new StringTokenizer(input," ");
             y = Integer.parseInt(br.readLine());
             x = Integer.parseInt(br.readLine());
 
